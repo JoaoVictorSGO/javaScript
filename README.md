@@ -11,3 +11,5 @@ Ao longo do caminho, estarei trabalhando com:
 Este projeto está sendo desenvolvido com a mentoria de [Oravio Miranda](https://beacons.ai/otaviomiranda), e serve como uma plataforma para explorar novas tecnologias e práticas do ecossistema JavaScript.
 
 Para conhercer o curso acesse esse link: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/?couponCode=2021PM25
+
+Muito Obrigado!
