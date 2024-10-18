@@ -53,3 +53,11 @@ form button{
 form button :hover{
     background: var(--primary-color-darker);
 }
+.paragrafo-resultado, .bad{  /*Essa ação vai acontecer assim que o evento do js acontecer!*/
+    background: rgb(110, 255, 146);
+    padding: 10px 20px;
+}
+
+.bad{
+    background: rgb(236, 54, 73);
+}
