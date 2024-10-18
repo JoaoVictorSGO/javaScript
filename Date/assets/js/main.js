@@ -16,9 +16,15 @@ function DataAtual(){
     const mes = mesEmPortugues(new Date().getMonth()); // Passa o numero do mẽs para funçãp
     const ano = new Date().getFullYear(); // Ano
     const horas = new Date().getHours(); // Horas
-    const minutos = new Date().getMinutes(); // Minutos
+    let minutos = adicionarZero(new Date().getMinutes()); 
+    
     return formatarData(nomeDoDia, dia, mes, ano, horas,minutos);
     
+}
+
+// Adionar um zero a esquerda quando o minuto for de 0-9
+function adicionarZero(numero){
+    return numero < 10? `0${numero}` : numero;
 }
 
 //Formata a data
