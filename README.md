@@ -12,4 +12,4 @@ Este projeto está sendo desenvolvido com a mentoria de [Oravio Miranda](https:/
 
 Para conhercer o curso acesse esse link: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/?couponCode=2021PM25
 
-Muito Obrigado!
+Muito Obrigado!!
