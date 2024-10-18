@@ -29,21 +29,13 @@ function formatarData(nomeDoDia, dia, mes, ano, horas, minutos){
 function mesEmPortugues(mes){
     
     const nome = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
-
-    for (let i = 0; i < nome.length; i++) { // O for pecorre o array 
-        if (i == mes){ // se o numero do mes for igual o número do contador ele retorna o mês
-            return nome[i];
-        }
-    }
+    return  nome[mes]
+    
 }
 
 // Retorna o nome do dia da semana
 function nomeDoDiaDaSemana(diaDaSemana){
     const nome = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sabado']
 
-    for(let i = 0; i < nome.length; i++) {
-        if (i == diaDaSemana){ // se o dia da semana for igual o valor do index do array ele retorna
-            return nome[i];
-        }
-    }
+    return nome[diaDaSemana]
 }
